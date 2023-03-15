@@ -8,6 +8,15 @@
 
 Ruby Docs : [http://www.rubydoc.info/gems/sirp](http://www.rubydoc.info/gems/sirp)
 
+
+## Notes
+
+I forked this simply to keep it up to date and make sure tests pass.
+The new minimum Ruby version is 2.7.7.
+I won't be adding any new features, but I will be fixing bugs if any come up.
+
+
+
 This is a pure Ruby implementation of the
 [Secure Remote Password](http://srp.stanford.edu/) protocol (SRP-6a),
 which is a 'zero-knowledge' mutual authentication system.
