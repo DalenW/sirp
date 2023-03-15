@@ -1,0 +1,13 @@
+module SIRP
+  class Verifier
+    @salt: int
+
+    def generate_userauth: (string, string) -> Hash[Symbol, string]
+
+    def get_challenge_and_proof: (string, string, string, string) -> (Hash[Symbol, untyped] | false)
+
+    def symbolize_keys_deep!: -> Hash[Symbol, untyped]
+
+    def verify_session: (Hash[Symbol, untyped], string) -> (string | false)
+  end
+end

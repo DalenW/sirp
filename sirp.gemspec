@@ -39,4 +39,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec', '~> 3.4'
   spec.add_development_dependency 'pry', '~> 0.12'
   spec.add_development_dependency 'wwtd', '~> 1.3'
+  spec.add_development_dependency 'rbs'
 end
