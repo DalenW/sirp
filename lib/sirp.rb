@@ -1,6 +1,6 @@
 require 'openssl'
 require 'digest'
-require 'sysrandom/securerandom'
+require 'securerandom'
 require 'sirp/sirp'
 require 'sirp/parameters'
 require 'sirp/client'

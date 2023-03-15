@@ -1,0 +1,34 @@
+module SIRP
+  VERSION: string
+
+  class Client
+    def start_authentication: -> string
+  end
+
+  @N: Array[string]
+  @g: int
+
+  def H: -> int
+
+  def Ng: -> Array[untyped]
+
+  def calc_H_AMK: -> int
+
+  def calc_M: -> string
+
+  def calc_k: -> int
+
+  def calc_u: -> int
+
+  def calc_x: (string, string, string, string) -> int
+
+  def hex_to_bytes: (string) -> Array[int]
+
+  def num_to_hex: (int) -> string
+
+  def secure_compare: (string, string) -> bool
+
+  def sha_hex: (string, Digest::SHA1 | Digest::SHA256) -> string
+
+  def sha_str: (string, Digest::SHA1 | Digest::SHA256) -> string
+end
